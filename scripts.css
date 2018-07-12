@@ -1,0 +1,52 @@
+body {
+      margin: auto;
+      background-color: black
+}
+
+.head {
+      width: 1100px;
+      height: 320px;
+      margin: auto;
+      overflow: visible
+}
+
+.menu {
+      width: 1100px;
+      background-color: ghostwhite;
+      margin: auto;
+      overflow: auto
+}
+
+.menu .row{ list-style-type: none;
+            text-align: center;
+            margin: auto;
+            
+}
+
+.menu .row li{float: left}
+
+.menu .row li a{ text-decoration: none;
+                display: block;
+                 padding: 12px;
+                 color: red;
+}
+
+.menu .row li a:hover{border: 1px solid red;
+                      color:black;
+                      text-decoration: none;
+      max-width:100%;
+      he
+      height: auto
+}
+
+/*.menu .row li a:visited{border: 1px solid red;
+                      color:pink;
+                      text-decoration: none;
+      
+}
+
+.menu .row li a:active{border: 1px solid red;
+                      color:green;
+                      text-decoration: none;
+      
+}*/
